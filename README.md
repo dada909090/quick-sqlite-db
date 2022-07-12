@@ -20,10 +20,10 @@ db.get("name") #Dada878
 connect to database
 
 ```db.set(key,value)```\
-set value by string key
+set value by key
 
 ```db.get(key)```\
-return value by string key
+get value by key
 
 ```db.append(key,more)```\
 add more to key's value
