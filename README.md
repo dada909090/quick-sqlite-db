@@ -16,7 +16,7 @@ db.set("name", "Dada878")
 db.get("name") #Dada878
 ```
 ### Documentation
-```Database(path, tableName?)```\
+```Database(path, tableName?, auto_init?)```\
 connect to database
 
 ```db.set(key,value)```\
