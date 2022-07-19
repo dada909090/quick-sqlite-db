@@ -39,3 +39,16 @@ delete item by key
 
 ```db.exists(key)```\
 check if key exists, return boolean
+
+### Future
+```db.change_name(name)```\
+change the table name
+
+```db.set(key,value)```\
+set value by key **and retune the value**
+
+```db.remove(key,more)```\
+remove some value from the key and retune the value
+
+```db.append(key,more)```\
+add some value from the key and retune the value
